@@ -9,9 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {moment().format("MMMM Do YYYY, h:mm:ss a")}
-        </header>
+        <header className="App-header">Now</header>
         <p className="App-intro">
           In React apps, we write JSX - it looks like HTML, and uses a lot HTML
           syntax. JSX lets us include JavaScript functions right along with the
@@ -19,7 +17,7 @@ class App extends Component {
           self-contained chunks of of JSX.
         </p>
         <ExampleComponent />
-        <ExampleComponent />
+        <TestComponent />
       </div>
     );
   }
